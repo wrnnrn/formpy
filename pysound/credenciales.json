@@ -1,16 +1,16 @@
 {
     "usuarios": [
         {
+            "nombre": "usuario1",
+            "contrasena": "contrase\u00f1a1"
+        },
+        {
+            "nombre": "usuario2",
+            "contrasena": "contrase\u00f1a2"
+        },
+        {
             "nombre": "admin",
             "contrasena": "admin"
-        },
-        {
-            "nombre": "wrnnrn",
-            "contrasena": "gimenez"
-        },
-        {
-            "nombre": "prueba1",
-            "contrasena": "1234"
         }
     ]
 }
