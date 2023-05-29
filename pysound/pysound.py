@@ -5,6 +5,13 @@ import json
 
 root = tk.Tk()
 
+try:
+    with open('credenciales.json', 'r') as archivo:
+        data = json.load(archivo)
+        # Resto del código
+except json.JSONDecodeError as e:
+    messagebox.showerror("Error", "Error al cargar el archivo JSON: " + str(e))
+
 def abrir_ventana():
     ruta = "login-module.py"
     os.system(f"python {ruta}")
